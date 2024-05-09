@@ -1,0 +1,52 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.navLogo a img {
+  margin-left: 40px;
+}
+
+.navigate {
+  margin-left: 315px;
+  margin-top: -15px;
+}
+
+.navigate ul {
+  list-style: none;
+  display: flex;
+  gap: 22px;
+}
+
+.navigate ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+
+.navigate ul li a:hover {
+  color: rgba(0, 186, 252, 1);
+}
+
+.btn {
+  width: 159px;
+  height: 40px;
+  margin-left: 275px;
+  margin-top: -8px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(0, 186, 252, 1);
+  color: white;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  color: rgba(0, 186, 252, 1);
+  background-color: #323145;
+}
